@@ -17,7 +17,7 @@ Add `wagtail_shop_catalog` to your `INSTALLED_APPS`:
 ```python
 INSTALLED_APPS = [
     # ...
-    'wagtail_shop_catalog',
+    "wagtail_shop_catalog",
     # ...
 ]
 ```
@@ -27,7 +27,7 @@ Add `wagtail_shop_catalog.urls` to your `urlpatterns`:
 ```python
 urlpatterns = [
     # ...
-    path('catalog/', include('wagtail_shop_catalog.urls')),
+    path("catalog/", include("wagtail_shop_catalog.urls")),
     # ...
 ]
 ```

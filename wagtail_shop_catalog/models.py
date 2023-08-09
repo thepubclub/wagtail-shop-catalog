@@ -7,7 +7,7 @@ class WagtailShopCatalogBasePage(Page):
 
 
 class CatalogIndexPage(WagtailShopCatalogBasePage):
-    template = 'wagtail_shop_catalog/catalog_index_page.html'
+    template = "wagtail_shop_catalog/catalog_index_page.html"
 
 
 class WagtailShopProductBasePage(Page):
@@ -16,7 +16,7 @@ class WagtailShopProductBasePage(Page):
 
 
 class ProductPage(WagtailShopProductBasePage):
-    template = 'wagtail_shop_catalog/product_page.html'
+    template = "wagtail_shop_catalog/product_page.html"
 
 
 class WagtailShopProductVariantBasePage(Page):
@@ -25,4 +25,4 @@ class WagtailShopProductVariantBasePage(Page):
 
 
 class ProductVariantPage(WagtailShopProductVariantBasePage):
-    template = 'wagtail_shop_catalog/product_variant_page.html'
+    template = "wagtail_shop_catalog/product_variant_page.html"
